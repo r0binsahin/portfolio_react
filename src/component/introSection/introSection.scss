@@ -1,9 +1,40 @@
-#start {
-  width: 100%;
-  height: 100vh;
-  background: pink;
-  position: relative;
+@import "../../styles/variables";
+@import "../../styles/mixins";
 
+#start {
+  margin: 30px;
+
+  position: relative;
   top: 100px;
-  margin-bottom: 150px;
+
+  .imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 40%;
+      border-radius: 50%;
+    }
+  }
+
+  h1 {
+    color: $white;
+  }
+
+  h3 {
+    color: $secondaryColorYellow;
+  }
+
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.4px;
+
+    a {
+      text-decoration: none;
+      font-style: italic;
+    }
+  }
 }

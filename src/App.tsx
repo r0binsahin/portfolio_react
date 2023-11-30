@@ -1,5 +1,5 @@
 import "./App.scss";
-import { About } from "./component/about/About";
+import { Resume } from "./component/resume/Resume";
 import { IntroSection } from "./component/introSection/IntroSection";
 
 import { Navbar } from "./component/navbar/Navbar";
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <IntroSection />
 
-      <About />
+      <Resume />
     </>
   );
 }

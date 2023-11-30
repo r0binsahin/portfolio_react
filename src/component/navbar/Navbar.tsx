@@ -8,7 +8,7 @@ export const Navbar = () => {
 
   const navItems: NavItem[] = [
     { section: "start", link: "#container" },
-    { section: "about", link: "#about" },
+    { section: "resume", link: "#resume" },
     { section: "projects", link: "#projects" },
   ];
 
