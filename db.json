@@ -1,0 +1,152 @@
+{
+  "skills": [
+    {
+      "skillsImg": "https://img.icons8.com/ios-filled/512/react-native.png",
+      "skillsName": "React"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/material-rounded/512/typescript.png",
+      "skillsName": "Typescript"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/ios-filled/512/javascript.png",
+      "skillsName": "Javascript"
+    },
+
+    {
+      "skillsImg": "https://img.icons8.com/ios-filled/512/react-native.png",
+      "skillsName": "React Native"
+    },
+
+    {
+      "skillsImg": "https://img.icons8.com/windows/512/vuetify.png",
+      "skillsName": "Vuejs"
+    },
+
+    {
+      "skillsImg": "https://www.svgrepo.com/show/306824/svelte.svg",
+      "skillsName": "Svelte"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/512/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-bold-tal-revivo.png",
+      "skillsName": "HTML"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/material-outlined/512/sass.png",
+      "skillsName": "Sass"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/ios-glyphs/512/css3.png",
+      "skillsName": "CSS"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/external-those-icons-fill-those-icons/512/external-Bootstrap-social-media-those-icons-fill-those-icons.png",
+      "skillsName": "Bootstrap"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/ios-glyphs/512/open-parcel.png",
+      "skillsName": "Parceljs"
+    },
+    {
+      "skillsImg": "https://cdn3.iconfinder.com/data/icons/database-35/66/5-1024.png",
+      "skillsName": "Test Automation"
+    },
+    {
+      "skillsImg": "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jest-1024.png",
+      "skillsName": "Jest"
+    },
+    {
+      "skillsImg": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png",
+      "skillsName": "Cypress"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/ios-filled/512/git.png",
+      "skillsName": "Git"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/ios-glyphs/512/github.png",
+      "skillsName": "GitHub"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/windows/512/nodejs.png",
+      "skillsName": "Node.js"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/external-tal-revivo-regular-tal-revivo/512/external-graphql-an-open-source-data-query-and-manipulation-language-for-api-logo-regular-tal-revivo.png",
+      "skillsName": "GraphQL"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/sf-black-filled/512/api-settings.png",
+      "skillsName": "Rest API"
+    },
+    {
+      "skillsImg": "https://icons.veryicon.com/png/o/miscellaneous/gwidc_1/mongodb.png",
+      "skillsName": "MongoDB"
+    },
+    {
+      "skillsImg": "https://img.icons8.com/sf-black-filled/512/sql.png",
+      "skillsName": "SQL"
+    }
+  ],
+  "projects": [
+    {
+      "projectImg": "https://i.postimg.cc/FzGnSXGR/travelwishlist-cover.png",
+      "projectName": "Travel Whishlist",
+      "projectDesc": "A travel wishlist created with GraphQL. Add a city to your wishlist. Remove it to the visited cities. You can see the total amount of cities you have visited",
+      "projectLink": "https://movieland.tech/?",
+      "projectGHLink": "https://github.com/r0binsahin/Travel_wishlist_GraphQL.git",
+      "projectLanguages": "<p>GraphQL</p><p>Apollo</p><p>Javascript</p><p>HTML</p><p>CSS</p><p>Flexbox</p>"
+    },
+    {
+      "projectImg": "https://i.postimg.cc/ZRtgtcCT/bookshop-cover.png",
+      "projectName": "Selmas Books",
+      "projectDesc": "A bookshop where you can buy some of Selma Lagerlöf's books. This was a teamwork project made by me and my classmates Lisa and Micke. We followed Scrum and Jira were followed.",
+      "projectLink": "https://selmasbookshop.netlify.app/",
+      "projectGHLink": "https://github.com/r0binsahin/Bookshop.git",
+      "projectLanguages": "<p>Typescript</p><p>HTML</p><p>SCSS</p><p>Flexbox</p><p>Bootstraps</p><p>Parceljs</p>"
+    },
+    {
+      "projectImg": "https://i.postimg.cc/bJx5ztt1/movieland-cover.png",
+      "projectName": "MovieLand",
+      "projectDesc": "Welcome to one of the biggest movie databases based on OMDB-API. You can search among over 4200 movies from all around the world. Type something in the searching area to find a movie",
+      "projectLink": "../../projects/movieland/index.html",
+      "projectGHLink": "https://github.com/r0binsahin/Moviedatabase.git",
+      "projectLanguages": "<p>Typescript</p><p>HTML</p><p>SCSS</p><p>Flexbox</p><p>Bootstraps</p><p>Parceljs</p>"
+    },
+    {
+      "projectImg": "https://i.postimg.cc/7hqWbZ3d/todo-cover.png",
+      "projectName": "Todo-list",
+      "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
+      "projectLink": "https://robinstodolist.netlify.app/",
+      "projectGHLink": "https://github.com/r0binsahin/TODO-List",
+      "projectLanguages": "<p>Javascript</p><p>HTML</p><p>SCSS</p><p>Flexbox</p><p>Bootstraps</p><p>Parceljs</p>"
+    }
+  ],
+
+  "otherProjects": [
+    {
+      "otherProjectName": "Shopping cart with RestAPI",
+      "otherProjectGHLink": "https://github.com/r0binsahin/Shopping_Cart_RestApi.git"
+    },
+    {
+      "otherProjectName": "Shopping cart with GraphQL",
+      "otherProjectGHLink": "https://github.com/r0binsahin/GraphQL-shopping-Cart.git"
+    },
+    {
+      "otherProjectName": "Portfolio code",
+      "otherProjectGHLink": "https://github.com/r0binsahin/New_portfolio.git"
+    },
+    {
+      "otherProjectName": "e2e testing school assignment",
+      "otherProjectGHLink": "https://github.com/r0binsahin/e2e_tester_inluppgift.git"
+    },
+    {
+      "otherProjectName": "Integration testing school assignment",
+      "otherProjectGHLink": "https://github.com/r0binsahin/integrationstester.git"
+    },
+    {
+      "otherProjectName": "Unit testing school assignment",
+      "otherProjectGHLink": "https://github.com/r0binsahin/enhetstester.git"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.skillsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  margin-top: 200px;
+
+  h1 {
+    color: $white;
+  }
+
+  .skills {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+
+    margin: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .skill {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .icon {
+      img {
+        max-width: 100%;
+      }
+    }
+
+    .title {
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  }
+}
