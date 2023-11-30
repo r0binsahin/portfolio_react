@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+
+  padding: 30px 0 30px 0;
+
+  background: $primaryColorGrey;
+
+  .navItem {
+    color: $white;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+}

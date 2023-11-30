@@ -1,0 +1,9 @@
+@import "../src/styles/variables";
+@import "../src/styles/mixins";
+
+:root {
+  font-family: $fontFamily;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: $primaryColorGrey;
+}
