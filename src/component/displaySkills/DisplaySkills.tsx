@@ -3,14 +3,20 @@ import ISkill from "../../models/ISkill";
 import { getData } from "../../services/dataService";
 
 import "./displaySkills.scss";
+import { IMyData } from "../../models/IMyData";
 
 export const DisplaySkills = () => {
   const [skills, setSkills] = useState<ISkill[]>([]);
 
   useEffect(() => {
     const setData = async () => {
-      const skills = await getData("skills");
+      const myData: IMyData = await getData();
+
+      const skills = myData.skills;
+
       setSkills(skills);
+
+      console.log(skills);
     };
 
     setData();
