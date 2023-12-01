@@ -91,36 +91,75 @@
     ],
     "projects": [
       {
+        "projectImg": "https://i.postimg.cc/G3kVNcyc/react-native-todolist.png",
+        "projectName": "React Native Todo List",
+        "projectDesc": "A mobile application created using React Native. Type next errand to do and check it when completed. Check, edit or remove  errands.",
+        "isDeployed": false,
+        "projectLink": "https://movieland.tech/?",
+        "projectGHLink": "https://github.com/r0binsahin/Todo_React_Native",
+        "projectLanguages": [
+          "React Native",
+          "Typescript",
+          "Flexbox",
+          "Json Server"
+        ]
+      },
+      {
         "projectImg": "https://i.postimg.cc/FzGnSXGR/travelwishlist-cover.png",
         "projectName": "Travel Whishlist",
         "projectDesc": "A travel wishlist created with GraphQL. Add a city to your wishlist. Remove it to the visited cities. You can see the total amount of cities you have visited",
+        "isDeployed": true,
         "projectLink": "https://movieland.tech/?",
         "projectGHLink": "https://github.com/r0binsahin/Travel_wishlist_GraphQL.git",
-        "projectLanguages": "<p>GraphQL</p><p>Apollo</p><p>Javascript</p><p>HTML</p><p>CSS</p><p>Flexbox</p>"
+        "projectLanguages": [
+          "GraphQL",
+          "Apollo",
+          "JS",
+          "HTML",
+          "CSS",
+          "Flexbox"
+        ]
       },
       {
         "projectImg": "https://i.postimg.cc/ZRtgtcCT/bookshop-cover.png",
         "projectName": "Selmas Books",
         "projectDesc": "A bookshop where you can buy some of Selma Lagerlöf's books. This was a teamwork project made by me and my classmates Lisa and Micke. We followed Scrum and Jira were followed.",
+        "isDeployed": true,
         "projectLink": "https://selmasbookshop.netlify.app/",
         "projectGHLink": "https://github.com/r0binsahin/Bookshop.git",
-        "projectLanguages": "<p>Typescript</p><p>HTML</p><p>SCSS</p><p>Flexbox</p><p>Bootstraps</p><p>Parceljs</p>"
+        "projectLanguages": [
+          "Typescript",
+          "HTML",
+          "SCSS",
+          "Flexbox",
+          "Bootstraps",
+          "Parcel"
+        ]
       },
       {
         "projectImg": "https://i.postimg.cc/bJx5ztt1/movieland-cover.png",
         "projectName": "MovieLand",
         "projectDesc": "Welcome to one of the biggest movie databases based on OMDB-API. You can search among over 4200 movies from all around the world. Type something in the searching area to find a movie",
+        "isDeployed": true,
         "projectLink": "../../projects/movieland/index.html",
         "projectGHLink": "https://github.com/r0binsahin/Moviedatabase.git",
-        "projectLanguages": "<p>Typescript</p><p>HTML</p><p>SCSS</p><p>Flexbox</p><p>Bootstraps</p><p>Parceljs</p>"
+        "projectLanguages": ["Typescript", "HTML", "SCSS", "Flexbox", "Parcel"]
       },
       {
         "projectImg": "https://i.postimg.cc/7hqWbZ3d/todo-cover.png",
         "projectName": "Todo-list",
         "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
+        "isDeployed": true,
         "projectLink": "https://robinstodolist.netlify.app/",
         "projectGHLink": "https://github.com/r0binsahin/TODO-List",
-        "projectLanguages": "<p>Javascript</p><p>HTML</p><p>SCSS</p><p>Flexbox</p><p>Bootstraps</p><p>Parceljs</p>"
+        "projectLanguages": [
+          "JS",
+          "HTML",
+          "SCSS",
+          "Flexbox",
+          "Bootstraps",
+          "Parcel"
+        ]
       }
     ],
 

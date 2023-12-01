@@ -1,26 +1,10 @@
-import { useEffect, useState } from "react";
-import ISkill from "../../models/ISkill";
-import { getData } from "../../services/dataService";
+import { useContext } from "react";
 
 import "./displaySkills.scss";
-import { IMyData } from "../../models/IMyData";
+import { DataContext } from "../context/DataContext";
 
 export const DisplaySkills = () => {
-  const [skills, setSkills] = useState<ISkill[]>([]);
-
-  useEffect(() => {
-    const setData = async () => {
-      const myData: IMyData = await getData();
-
-      const skills = myData.skills;
-
-      setSkills(skills);
-
-      console.log(skills);
-    };
-
-    setData();
-  }, []);
+  const { skills } = useContext(DataContext);
 
   return (
     <div className="skillsContainer">
