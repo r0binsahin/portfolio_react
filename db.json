@@ -95,7 +95,7 @@
         "projectName": "React Native Todo List",
         "projectDesc": "A mobile application created using React Native. Type next errand to do and check it when completed. Check, edit or remove  errands.",
         "isDeployed": false,
-        "projectLink": "https://movieland.tech/?",
+        "projectLink": "",
         "projectGHLink": "https://github.com/r0binsahin/Todo_React_Native",
         "projectLanguages": [
           "React Native",
