@@ -8,6 +8,7 @@ import { DataContext } from "./component/context/DataContext";
 import { getData } from "./services/dataService";
 import { IMyData } from "./models/IMyData";
 import { useEffect, useState } from "react";
+import { ProjectCards } from "./component/projectCards/ProjectCards";
 
 function App() {
   const [myData, setMyData] = useState<IMyData>({
@@ -24,7 +25,7 @@ function App() {
 
   useEffect(() => {
     setData();
-  }, [setData]);
+  }, []);
 
   return (
     <>
@@ -33,6 +34,7 @@ function App() {
         <IntroSection />
         <DisplaySkills />
         <Resume />
+        <ProjectCards />
       </DataContext.Provider>
     </>
   );

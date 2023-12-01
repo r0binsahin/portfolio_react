@@ -1,5 +1,3 @@
-import { IProjectLanguages } from "./IProjectLanguages";
-
 interface IProject {
   projectImg: string;
   projectName: string;
@@ -7,7 +5,7 @@ interface IProject {
   isDeployed: boolean;
   projectLink: string;
   projectGHLink: string;
-  projectLanguages: IProjectLanguages;
+  projectLanguages: string[];
 }
 
 export default IProject;
