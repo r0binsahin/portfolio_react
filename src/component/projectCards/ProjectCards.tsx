@@ -40,7 +40,7 @@ export const ProjectCards = () => {
                 <img
                   className="flipCard__front__img"
                   src={project.projectImg}
-                  alt=""
+                  alt="project image"
                 />
               </div>
               <div className="flipCard__back">
