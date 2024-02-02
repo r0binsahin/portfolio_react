@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { DataContext } from "../context/DataContext";
+import { DataContext } from "../../context/DataContext";
 import IProject from "../../models/IProject";
 
 import "./projectCards.scss";
