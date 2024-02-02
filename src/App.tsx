@@ -9,6 +9,7 @@ import { getData } from "./services/dataService";
 import { IMyData } from "./models/IMyData";
 import { useEffect, useState } from "react";
 import { ProjectCards } from "./component/projectCards/ProjectCards";
+import { DisplayOtherProjects } from "./component/otherProjects/DisplayOtherProjects";
 
 function App() {
   const [myData, setMyData] = useState<IMyData>({
@@ -35,6 +36,7 @@ function App() {
         <DisplaySkills />
         <Resume />
         <ProjectCards />
+        <DisplayOtherProjects />
       </DataContext.Provider>
     </>
   );

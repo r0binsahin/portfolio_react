@@ -180,6 +180,18 @@
 
     "otherProjects": [
       {
+        "otherProjectName": "Todo list Angular",
+        "otherProjectGHLink": "https://github.com/r0binsahin/todolist_Angular.git"
+      },
+      {
+        "otherProjectName": "Todo list React Native",
+        "otherProjectGHLink": "https://github.com/r0binsahin/Todo_React_Native.git"
+      },
+      {
+        "otherProjectName": "Tic tac toe with Vue",
+        "otherProjectGHLink": "https://github.com/r0binsahin/Tic_tac_toe_VUE.git"
+      },
+      {
         "otherProjectName": "Shopping cart with RestAPI",
         "otherProjectGHLink": "https://github.com/r0binsahin/Shopping_Cart_RestApi.git"
       },
