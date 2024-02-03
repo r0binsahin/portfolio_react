@@ -1,0 +1,237 @@
+{
+  "mydata": {
+    "skills": [
+      {
+        "skillsImg": "https://img.icons8.com/ios-filled/512/react-native.png",
+        "skillsName": "React"
+      },
+
+      {
+        "skillsImg": "https://img.icons8.com/material-rounded/512/typescript.png",
+        "skillsName": "Typescript"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/ios-filled/512/javascript.png",
+        "skillsName": "Javascript"
+      },
+
+      {
+        "skillsImg": "https://img.icons8.com/ios-filled/512/react-native.png",
+        "skillsName": "React Native"
+      },
+
+      {
+        "skillsImg": "https://img.icons8.com/windows/512/vuetify.png",
+        "skillsName": "Vuejs"
+      },
+
+      {
+        "skillsImg": "https://www.svgrepo.com/show/306824/svelte.svg",
+        "skillsName": "Svelte"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/external-tal-revivo-bold-tal-revivo/512/external-html-5-is-a-software-solution-stack-that-defines-the-properties-and-behaviors-of-web-page-logo-bold-tal-revivo.png",
+        "skillsName": "HTML"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/material-outlined/512/sass.png",
+        "skillsName": "Sass"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/ios-glyphs/512/css3.png",
+        "skillsName": "CSS"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/external-those-icons-fill-those-icons/512/external-Bootstrap-social-media-those-icons-fill-those-icons.png",
+        "skillsName": "Bootstrap"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/ios-glyphs/512/open-parcel.png",
+        "skillsName": "Parceljs"
+      },
+      {
+        "skillsImg": "https://cdn3.iconfinder.com/data/icons/database-35/66/5-1024.png",
+        "skillsName": "Test Automation"
+      },
+      {
+        "skillsImg": "https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/jest-1024.png",
+        "skillsName": "Jest"
+      },
+      {
+        "skillsImg": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Cypress.png",
+        "skillsName": "Cypress"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/ios-filled/512/git.png",
+        "skillsName": "Git"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/ios-glyphs/512/github.png",
+        "skillsName": "GitHub"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/windows/512/nodejs.png",
+        "skillsName": "Node.js"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/external-tal-revivo-regular-tal-revivo/512/external-graphql-an-open-source-data-query-and-manipulation-language-for-api-logo-regular-tal-revivo.png",
+        "skillsName": "GraphQL"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/sf-black-filled/512/api-settings.png",
+        "skillsName": "Rest API"
+      },
+      {
+        "skillsImg": "https://icons.veryicon.com/png/o/miscellaneous/gwidc_1/mongodb.png",
+        "skillsName": "MongoDB"
+      },
+      {
+        "skillsImg": "https://img.icons8.com/sf-black-filled/512/sql.png",
+        "skillsName": "SQL"
+      }
+    ],
+    "projects": [
+      {
+        "projectImg": "https://i.postimg.cc/DZfq3Kq6/peyvok-tr.png",
+        "projectName": "Peyvok",
+        "projectDesc": "This project is a React Native mobile application developed as final project for my Frontend Development education at Medieinstitutet in Stockholm 2022-2024.",
+        "isDeployed": false,
+        "projectLink": "",
+        "projectGHLink": "https://github.com/r0binsahin/Peyvok.git",
+        "projectLanguages": ["React Native", "Typescript", "MongoDB Realm"]
+      },
+
+      {
+        "projectImg": "https://i.postimg.cc/43LP5RJB/sushihaket.png",
+        "projectName": "Sushihaket",
+        "projectDesc": "A fullstack restaurant site with booking and admin page. Group work in the course in ReactJS, during our education as Frontend Developers at the Media Institute.",
+        "isDeployed": true,
+        "projectLink": "https://sushihaket.netlify.app/",
+        "projectGHLink": "https://github.com/r0binsahin/sushi_restaurant.git",
+        "projectLanguages": [
+          "React",
+          "Typescript",
+          "NodeJS",
+          "ExpressJS",
+          "MongoDB",
+          "StyledComponents"
+        ]
+      },
+
+      {
+        "projectImg": "https://i.postimg.cc/L5ZkK2rG/zoo-1.png",
+        "projectName": "The Zoo",
+        "projectDesc": "Here you'll find our food-loving animals who are often hungry. Feel free to come in, get to know them, and feed them if they're hungry. They need to be fed every three hours. They're probably starving right now. So hurry up and feed them.",
+        "isDeployed": true,
+        "projectLink": "https://minzoo.netlify.app/",
+        "projectGHLink": "https://github.com/r0binsahin/The_Zoo_React.js.git",
+        "projectLanguages": ["React", "Typescript", "SCSS"]
+      },
+      {
+        "projectImg": "https://i.postimg.cc/G3kVNcyc/react-native-todolist.png",
+        "projectName": "React Native Todo List",
+        "projectDesc": "A mobile application created using React Native. Type next errand to do and check it when completed. Check, edit or remove  errands.",
+        "isDeployed": false,
+        "projectLink": "",
+        "projectGHLink": "https://github.com/r0binsahin/Todo_React_Native",
+        "projectLanguages": ["React Native", "Typescript", "Json Server"]
+      },
+      {
+        "projectImg": "https://i.postimg.cc/FzGnSXGR/travelwishlist-cover.png",
+        "projectName": "Travel Whishlist",
+        "projectDesc": "A travel wishlist created with GraphQL. Add a city to your wishlist. Remove it to the visited cities. You can see the total amount of cities you have visited",
+        "isDeployed": false,
+        "projectLink": "",
+        "projectGHLink": "https://github.com/r0binsahin/Travel_wishlist_GraphQL.git",
+        "projectLanguages": [
+          "GraphQL",
+          "Apollo",
+          "JS",
+          "HTML",
+          "CSS",
+          "Flexbox"
+        ]
+      },
+      {
+        "projectImg": "https://i.postimg.cc/ZRtgtcCT/bookshop-cover.png",
+        "projectName": "Selmas Books",
+        "projectDesc": "A bookshop where you can buy some of Selma Lagerlöf's books. This was a teamwork project made by me and my classmates Lisa and Micke. We followed Scrum and Jira were followed.",
+        "isDeployed": true,
+        "projectLink": "https://selmasbookshop.netlify.app/",
+        "projectGHLink": "https://github.com/r0binsahin/Bookshop.git",
+        "projectLanguages": [
+          "Typescript",
+          "HTML",
+          "SCSS",
+          "Flexbox",
+          "Bootstraps",
+          "Parcel"
+        ]
+      },
+      {
+        "projectImg": "https://i.postimg.cc/bJx5ztt1/movieland-cover.png",
+        "projectName": "MovieLand",
+        "projectDesc": "Welcome to one of the biggest movie databases based on OMDB-API. You can search among over 4200 movies from all around the world. Type something in the searching area to find a movie",
+        "isDeployed": true,
+        "projectLink": "https://movieinformationapp.netlify.app/",
+        "projectGHLink": "https://github.com/r0binsahin/Moviedatabase.git",
+        "projectLanguages": ["Typescript", "HTML", "SCSS", "Flexbox", "Parcel"]
+      },
+      {
+        "projectImg": "https://i.postimg.cc/7hqWbZ3d/todo-cover.png",
+        "projectName": "Todo-list",
+        "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
+        "isDeployed": true,
+        "projectLink": "https://robinstodolist.netlify.app/",
+        "projectGHLink": "https://github.com/r0binsahin/TODO-List",
+        "projectLanguages": [
+          "JS",
+          "HTML",
+          "SCSS",
+          "Flexbox",
+          "Bootstraps",
+          "Parcel"
+        ]
+      }
+    ],
+
+    "otherProjects": [
+      {
+        "otherProjectName": "Todo list Angular",
+        "otherProjectGHLink": "https://github.com/r0binsahin/todolist_Angular.git"
+      },
+      {
+        "otherProjectName": "Todo list React Native",
+        "otherProjectGHLink": "https://github.com/r0binsahin/Todo_React_Native.git"
+      },
+      {
+        "otherProjectName": "Tic tac toe with Vue",
+        "otherProjectGHLink": "https://github.com/r0binsahin/Tic_tac_toe_VUE.git"
+      },
+      {
+        "otherProjectName": "Shopping cart with RestAPI",
+        "otherProjectGHLink": "https://github.com/r0binsahin/Shopping_Cart_RestApi.git"
+      },
+      {
+        "otherProjectName": "Shopping cart with GraphQL",
+        "otherProjectGHLink": "https://github.com/r0binsahin/GraphQL-shopping-Cart.git"
+      },
+      {
+        "otherProjectName": "Portfolio code",
+        "otherProjectGHLink": "https://github.com/r0binsahin/New_portfolio.git"
+      },
+      {
+        "otherProjectName": "e2e testing school assignment",
+        "otherProjectGHLink": "https://github.com/r0binsahin/e2e_tester_inluppgift.git"
+      },
+      {
+        "otherProjectName": "Integration testing school assignment",
+        "otherProjectGHLink": "https://github.com/r0binsahin/integrationstester.git"
+      },
+      {
+        "otherProjectName": "Unit testing school assignment",
+        "otherProjectGHLink": "https://github.com/r0binsahin/enhetstester.git"
+      }
+    ]
+  }
+}
