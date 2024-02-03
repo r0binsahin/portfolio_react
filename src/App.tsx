@@ -1,36 +1,23 @@
 import "./App.scss";
-import { Resume } from "./component/resume/Resume";
-import { IntroSection } from "./component/introSection/IntroSection";
+
+import { DataContext } from "./context/DataContext";
+import { IMyData } from "./models/IMyData";
 
 import { Navbar } from "./component/navbar/Navbar";
+import { IntroSection } from "./component/introSection/IntroSection";
 import { DisplaySkills } from "./component/displaySkills/DisplaySkills";
-import { DataContext } from "./context/DataContext";
-import { getData } from "./services/dataService";
-import { IMyData } from "./models/IMyData";
-import { useEffect, useState } from "react";
+import { Resume } from "./component/resume/Resume";
 import { ProjectCards } from "./component/projectCards/ProjectCards";
 import { DisplayOtherProjects } from "./component/otherProjects/DisplayOtherProjects";
 
+import data from "./assets/data/data.json";
+
+const myProjectData: IMyData = data.mydata;
+
 function App() {
-  const [myData, setMyData] = useState<IMyData>({
-    skills: [],
-    projects: [],
-    otherProjects: [],
-  });
-
-  const setData = async () => {
-    const myData: IMyData = await getData();
-
-    setMyData(myData);
-  };
-
-  useEffect(() => {
-    setData();
-  }, []);
-
   return (
     <>
-      <DataContext.Provider value={myData}>
+      <DataContext.Provider value={myProjectData}>
         <Navbar />
         <IntroSection />
         <DisplaySkills />
