@@ -102,6 +102,23 @@
       },
 
       {
+        "projectImg": "https://i.postimg.cc/43LP5RJB/sushihaket.png",
+        "projectName": "Sushihaket",
+        "projectDesc": "A fullstack restaurant site with booking and admin page. Group work in the course in ReactJS, during our education as Frontend Developers at the Media Institute.",
+        "isDeployed": true,
+        "projectLink": "https://sushihaket.netlify.app/",
+        "projectGHLink": "https://github.com/r0binsahin/sushi_restaurant.git",
+        "projectLanguages": [
+          "React",
+          "Typescript",
+          "NodeJS",
+          "ExpressJS",
+          "MongoDB",
+          "StyledComponents"
+        ]
+      },
+
+      {
         "projectImg": "https://i.postimg.cc/L5ZkK2rG/zoo-1.png",
         "projectName": "The Zoo",
         "projectDesc": "Here you'll find our food-loving animals who are often hungry. Feel free to come in, get to know them, and feed them if they're hungry. They need to be fed every three hours. They're probably starving right now. So hurry up and feed them.",
