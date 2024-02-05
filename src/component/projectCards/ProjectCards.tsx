@@ -19,8 +19,6 @@ export const ProjectCards = () => {
         newFlippedCards.splice(cardIndex, 1);
       }
 
-      console.log("flipped?");
-
       return newFlippedCards;
     });
   };
