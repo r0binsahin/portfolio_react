@@ -9,7 +9,7 @@ import swedish_flag from "../../assets/icons/swedish_flag.png";
 import british_flag from "../../assets/icons/british_flag.png";
 
 import { useState } from "react";
-import { ResumeCard } from "../../assets/icons/resumeCard";
+import { ResumeCard } from "../../assets/icons/ResumeCard";
 
 export const Resume = () => {
   const [flippedCards, setFlippedCards] = useState<number[]>([]);
