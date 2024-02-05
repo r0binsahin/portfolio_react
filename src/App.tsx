@@ -19,11 +19,13 @@ function App() {
     <>
       <DataContext.Provider value={myProjectData}>
         <Navbar />
-        <IntroSection />
-        <DisplaySkills />
-        <Resume />
-        <ProjectCards />
-        <DisplayOtherProjects />
+        <div className="container">
+          <IntroSection />
+          <DisplaySkills />
+          <Resume />
+          <ProjectCards />
+          <DisplayOtherProjects />
+        </div>
       </DataContext.Provider>
     </>
   );
