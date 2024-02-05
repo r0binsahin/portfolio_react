@@ -208,6 +208,10 @@
 
     "otherProjects": [
       {
+        "otherProjectName": "Portfolio with React",
+        "otherProjectGHLink": "https://github.com/r0binsahin/portfolio_react"
+      },
+      {
         "otherProjectName": "Todo list Angular",
         "otherProjectGHLink": "https://github.com/r0binsahin/todolist_Angular.git"
       },
