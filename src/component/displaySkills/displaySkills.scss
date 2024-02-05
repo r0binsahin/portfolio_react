@@ -10,8 +10,13 @@
 
   position: relative;
 
-  margin-top: 200px;
+  @include desktop {
+    width: 40%;
+  }
 
+  @include desktopBig {
+    width: 40%;
+  }
   h1 {
     color: $white;
   }

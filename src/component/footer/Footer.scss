@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.footer {
+  width: 100%;
+  margin-top: 100px;
+
+  background-color: $secondaryColorYellow;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.4px;
+
+  &__phoneBox {
+    padding-top: 30px;
+    p {
+      text-align: center;
+    }
+  }
+
+  &__linkBox {
+    display: flex;
+    justify-content: center;
+
+    gap: 20px;
+    padding-bottom: 30px;
+
+    a {
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}

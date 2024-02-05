@@ -11,6 +11,7 @@ import { ProjectCards } from "./component/projectCards/ProjectCards";
 import { DisplayOtherProjects } from "./component/otherProjects/DisplayOtherProjects";
 
 import data from "./assets/data/data.json";
+import { Footer } from "./component/footer/Footer";
 
 const myProjectData: IMyData = data.mydata;
 
@@ -19,11 +20,14 @@ function App() {
     <>
       <DataContext.Provider value={myProjectData}>
         <Navbar />
-        <IntroSection />
-        <DisplaySkills />
-        <Resume />
-        <ProjectCards />
-        <DisplayOtherProjects />
+        <div className="container">
+          <IntroSection />
+          <DisplaySkills />
+          <Resume />
+          <ProjectCards />
+          <DisplayOtherProjects />
+        </div>
+        <Footer />
       </DataContext.Provider>
     </>
   );

@@ -1,5 +1,130 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
 #resume {
-  background: red;
-  position: relative;
-  margin-top: 200px;
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: $white;
+    margin-bottom: 0;
+  }
+
+  .cardContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 30px;
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+
+    @include desktop {
+      width: 40%;
+      flex-direction: row;
+      justify-content: center;
+
+      border: 1px solid $secondaryColorYellow;
+      border-radius: 12px;
+      padding: 100px;
+    }
+
+    @include desktopBig {
+      width: 30%;
+    }
+
+    .flipCard {
+      background-color: transparent;
+      backface-visibility: hidden;
+      width: 250px;
+      height: 187.5px;
+
+      cursor: pointer;
+
+      &__inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+
+      .flipCard__inner.rotate {
+        transform: rotateY(180deg);
+      }
+
+      &__front,
+      &__back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+
+      &__front {
+        color: black;
+        margin: 0;
+        padding: 0;
+      }
+
+      &__back {
+        background-color: $black;
+        color: white;
+        transform: rotateY(180deg);
+
+        border-radius: 30px;
+
+        display: flex;
+        flex-direction: column;
+
+        margin-top: 31.25px;
+        margin-bottom: 31.25px;
+
+        &__wrapper {
+          display: flex;
+          flex-direction: column;
+          padding: 0 10px 0 10px;
+          gap: 20px;
+
+          .btnWrapper {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+
+            button {
+              width: 100px;
+
+              border: none;
+              border-radius: 5px;
+
+              &:hover {
+                background: $secondaryColorYellow;
+              }
+
+              a {
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+                font-size: 1rem;
+
+                img {
+                  width: 45px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

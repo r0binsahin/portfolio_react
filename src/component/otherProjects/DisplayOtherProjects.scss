@@ -1,9 +1,64 @@
-.otherProjectsContainer {
-  .project {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+@import "../../styles/variables";
+@import "../../styles/mixins";
 
-    padding: 0 50px 0 50px;
+.otherProjectsContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+
+  @include desktop {
+    width: 60%;
+  }
+
+  @include desktopBig {
+    width: 30%;
+  }
+
+  h1 {
+    width: 100%;
+    color: $white;
+    text-align: center;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .project {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      border: 1px solid $secondaryColorYellow;
+      border-radius: 15px;
+
+      padding: 0 30px 0 30px;
+
+      gap: 10px;
+
+      p {
+        width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        color: $white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-size: 1.1rem;
+        letter-spacing: 0.4px;
+      }
+
+      a {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        cursor: pointer;
+      }
+    }
   }
 }
