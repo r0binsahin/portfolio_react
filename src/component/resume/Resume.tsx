@@ -8,9 +8,8 @@ import CV_Robin_Sahin_eng from "../../assets/cv/CV_Robin_Sahin_eng.pdf";
 import swedish_flag from "../../assets/icons/swedish_flag.png";
 import british_flag from "../../assets/icons/british_flag.png";
 
-import { BsPersonVcard } from "react-icons/bs";
-
 import { useState } from "react";
+import { ResumeCard } from "../../assets/icons/resumeCard";
 
 export const Resume = () => {
   const [flippedCards, setFlippedCards] = useState<number[]>([]);
@@ -31,7 +30,7 @@ export const Resume = () => {
   };
   return (
     <>
-      <div className="resume">
+      <div id="resume">
         <h1>Resume</h1>
         <div className="cardContainer">
           <div className="flipCard" onClick={() => handleClick(1)}>
@@ -41,7 +40,7 @@ export const Resume = () => {
               }`}
             >
               <div className="flipCard__front">
-                <BsPersonVcard color="white" size={250} />
+                <ResumeCard />
               </div>
               <div className="flipCard__back">
                 <div className="flipCard__back__wrapper">

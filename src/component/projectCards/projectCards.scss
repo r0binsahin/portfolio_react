@@ -6,9 +6,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @include desktop {
+    width: 70%;
+  }
+
+  @include desktopBig {
+    width: 60%;
+  }
+
   h1 {
     color: $white;
-    margin-bottom: 0;
+    margin-bottom: 50px;
   }
 
   .cardContainer {
@@ -26,6 +35,8 @@
     @include desktop {
       flex-direction: row;
       justify-content: center;
+
+      gap: 100px;
     }
 
     .flipCard {

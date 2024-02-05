@@ -7,14 +7,26 @@
   position: relative;
   top: 100px;
 
+  @include desktop {
+    width: 40%;
+  }
+
   .imgContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 
+    @include desktop {
+      width: 300px;
+    }
+
     img {
       width: 40%;
       border-radius: 50%;
+
+      @include desktop {
+        width: 100%;
+      }
     }
   }
 
