@@ -136,6 +136,16 @@
         "projectGHLink": "https://github.com/r0binsahin/Todo_React_Native",
         "projectLanguages": ["React Native", "Typescript", "Json Server"]
       },
+
+      {
+        "projectImg": "https://i.postimg.cc/WtcbQ1d1/todo-vjue.png",
+        "projectName": "VueJS Todo List ",
+        "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
+        "isDeployed": true,
+        "projectLink": "https://todolist-with-vue.netlify.app/",
+        "projectGHLink": "https://github.com/r0binsahin/Todo_list_Vue.js.git",
+        "projectLanguages": ["VueJS", "Typescript", "SCSS", "Flexbox", "Vite"]
+      },
       {
         "projectImg": "https://i.postimg.cc/FzGnSXGR/travelwishlist-cover.png",
         "projectName": "Travel Whishlist",
@@ -152,6 +162,7 @@
           "Flexbox"
         ]
       },
+
       {
         "projectImg": "https://i.postimg.cc/ZRtgtcCT/bookshop-cover.png",
         "projectName": "Selmas Books",
