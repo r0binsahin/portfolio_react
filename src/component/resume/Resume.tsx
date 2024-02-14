@@ -30,7 +30,7 @@ export const Resume = () => {
   };
   return (
     <>
-      <div id="resume">
+      <div className="resume">
         <h1>Resume</h1>
         <div className="cardContainer">
           <div className="flipCard" onClick={() => handleClick(1)}>
