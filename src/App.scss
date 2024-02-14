@@ -9,11 +9,11 @@
 
   gap: 100px;
 
+  position: relative;
+  top: 100px;
+
   @include desktop {
     gap: 250px;
-
-    border-left: 10px solid $secondaryColorYellow;
-    border-right: 10px solid $secondaryColorYellow;
   }
 
   @include desktopBig {

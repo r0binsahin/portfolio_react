@@ -15,8 +15,11 @@
   background: $primaryColorGrey;
 
   @include desktop {
+    width: auto;
+    flex-direction: column;
     justify-content: flex-start;
     gap: 30px;
+    background: transparent;
 
     padding-left: 30px;
   }
@@ -25,5 +28,10 @@
     color: $white;
     font-size: 1.5rem;
     text-decoration: none;
+    transition: color 0.25s;
+
+    &:hover {
+      color: $secondaryColorYellow;
+    }
   }
 }

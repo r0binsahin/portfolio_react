@@ -4,9 +4,6 @@
 #start {
   margin: 30px;
 
-  position: relative;
-  top: 100px;
-
   @include desktop {
     width: 40%;
   }
