@@ -73,6 +73,11 @@
         "skillsImg": "https://img.icons8.com/windows/512/nodejs.png",
         "skillsName": "Node.js"
       },
+
+      {
+        "skillsImg": "https://cdn.iconscout.com/icon/free/png-512/free-postman-3628404-3032239.png?f=webp&w=512",
+        "skillsName": "Postman"
+      },
       {
         "skillsImg": "https://img.icons8.com/external-tal-revivo-regular-tal-revivo/512/external-graphql-an-open-source-data-query-and-manipulation-language-for-api-logo-regular-tal-revivo.png",
         "skillsName": "GraphQL"

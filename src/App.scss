@@ -12,6 +12,8 @@
   position: relative;
   top: 100px;
 
+  padding-bottom: 100px;
+
   @include desktop {
     gap: 150px;
   }
