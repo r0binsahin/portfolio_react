@@ -47,9 +47,10 @@
 
       cursor: pointer;
 
+      transition: ease-in-out 0.25s;
+
       &:hover {
-        width: 260px;
-        height: 510px;
+        transform: scale(1.1);
       }
 
       &__inner {
