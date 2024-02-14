@@ -47,6 +47,11 @@
 
       cursor: pointer;
 
+      &:hover {
+        width: 260px;
+        height: 510px;
+      }
+
       &__inner {
         position: relative;
         width: 100%;
