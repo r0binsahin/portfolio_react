@@ -4,7 +4,7 @@ import "../../styles/_mixins.scss";
 
 export const IntroSection = () => {
   return (
-    <div className="start">
+    <div id="start">
       <div className="imgContainer">
         <img
           src="https://i.postimg.cc/HWPJ4jby/robinsahinstart.png"

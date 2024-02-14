@@ -24,7 +24,7 @@ export const ProjectCards = () => {
   };
 
   return (
-    <div className="projects">
+    <div id="projects">
       <h1>Projects</h1>
       <div className="cardContainer">
         {projects.map((project: IProject, index: number) => (
