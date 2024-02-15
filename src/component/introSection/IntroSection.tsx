@@ -13,7 +13,7 @@ export const IntroSection = () => {
       </div>
 
       <h1>Hi, I'm Robin</h1>
-      <h3>a Stockholm-based web developer</h3>
+      <h3>a Stockholm-based developer</h3>
       <p>
         Thrilled to share the excitement of my journey as a dedicated and
         curious junior front-end developer. Currently, I am immersed in an
