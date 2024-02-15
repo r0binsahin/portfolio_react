@@ -125,6 +125,8 @@
 
               transition: ease-in-out 0.25s;
 
+              background-color: $white;
+
               &:hover {
                 transform: scale(1.1);
                 border: 1px solid $white;
