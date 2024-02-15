@@ -28,6 +28,11 @@
     a {
       text-align: center;
       cursor: pointer;
+
+      transition: ease-in-out 0.25s;
+      &:hover {
+        transform: scale(1.5);
+      }
     }
   }
 }

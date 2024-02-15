@@ -1,8 +1,8 @@
 import "./Footer.scss";
 
-import { FaGithubSquare } from "react-icons/fa";
-import { IoMdMail } from "react-icons/io";
-import { ImLinkedin } from "react-icons/im";
+import { PiGithubLogo } from "react-icons/pi";
+import { IoMailOpenOutline } from "react-icons/io5";
+import { SlSocialLinkedin } from "react-icons/sl";
 
 export const Footer = () => {
   return (
@@ -19,21 +19,21 @@ export const Footer = () => {
             className="footer_linkBox--mail"
             target="_blank"
           >
-            <IoMdMail size={30} color="#000" />
+            <IoMailOpenOutline size={30} color="#000" />
           </a>
           <a
             href="https://www.linkedin.com/in/robin-sahin-15404a24b/"
             className="footer_linkBox--linkedIn"
             target="_blank"
           >
-            <ImLinkedin size={30} color="#000" />
+            <SlSocialLinkedin size={30} color="#000" />
           </a>
           <a
             href="https://github.com/r0binsahin"
             className="footer_linkBox--github"
             target="_blank"
           >
-            <FaGithubSquare size={30} color="#000" />
+            <PiGithubLogo size={30} color="#000" />
           </a>
         </div>
       </footer>

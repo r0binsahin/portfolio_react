@@ -8,7 +8,7 @@ import CV_Robin_Sahin_eng from "../../assets/cv/CV_Robin_Sahin_eng.pdf";
 import swedish_flag from "../../assets/icons/swedish_flag.png";
 import british_flag from "../../assets/icons/british_flag.png";
 
-import { FiGithub } from "react-icons/fi";
+import { PiGithubLogo } from "react-icons/pi";
 import { IoMailOpenOutline } from "react-icons/io5";
 import { SlSocialLinkedin } from "react-icons/sl";
 
@@ -56,7 +56,7 @@ export const Resume = () => {
               <SlSocialLinkedin color="#fff" size={30} />
             </a>
             <a href="https://github.com/r0binsahin" target="_blank">
-              <FiGithub color="#fff" size={30} />
+              <PiGithubLogo color="#fff" size={30} />
             </a>
           </div>
         </div>
