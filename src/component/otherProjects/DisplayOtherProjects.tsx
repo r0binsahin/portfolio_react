@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { FaGithubSquare } from "react-icons/fa";
 
+import { PiGithubLogo } from "react-icons/pi";
 import "./DisplayOtherProjects.scss";
 
 import { DataContext } from "../../context/DataContext";
@@ -17,7 +17,7 @@ export const DisplayOtherProjects = () => {
             <div className="project">
               <p className="projectName">{project.otherProjectName}</p>
 
-              <FaGithubSquare size={30} color="#fff" />
+              <PiGithubLogo size={30} color="#fff" />
             </div>
           </a>
         ))}
