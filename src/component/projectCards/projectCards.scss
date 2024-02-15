@@ -15,11 +15,6 @@
     width: 60%;
   }
 
-  h1 {
-    color: $white;
-    margin-bottom: 50px;
-  }
-
   .cardContainer {
     width: 100%;
     display: flex;
@@ -86,7 +81,12 @@
       }
 
       &__back {
-        background-color: $black;
+        background: radial-gradient(
+          circle,
+          rgba(38, 40, 52, 1) 0%,
+          rgba(22, 8, 11, 1) 100%
+        );
+
         color: white;
         transform: rotateY(180deg);
 
@@ -94,16 +94,21 @@
 
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         &__wrapper {
+          width: 80%;
           display: flex;
           flex-direction: column;
-          padding: 0 10px 0 10px;
-          gap: 7px;
+
+          gap: 20px;
 
           .projectDesc {
-            text-align: start;
-            padding: 0 5px;
+            text-align: center;
+            font-size: 0.9rem;
+            border: 1px solid $secondaryColorYellow;
+            border-radius: 12px;
           }
 
           .btnWrapper {
@@ -112,14 +117,18 @@
             justify-content: space-around;
 
             button {
-              width: 100px;
-              height: 40px;
+              width: 70px;
+              height: 30px;
 
               border: none;
-              border-radius: 5px;
+              border-radius: 12px;
+
+              transition: ease-in-out 0.25s;
 
               &:hover {
-                background: $secondaryColorYellow;
+                transform: scale(1.1);
+                border: 1px solid $white;
+                background-color: $secondaryColorYellow;
               }
 
               a {
@@ -127,6 +136,8 @@
                 height: 100%;
                 text-decoration: none;
                 font-size: 1rem;
+                text-decoration: none;
+                color: inherit;
               }
             }
           }
@@ -140,13 +151,16 @@
             justify-content: center;
             align-items: center;
 
-            gap: 10px;
+            gap: 7px;
 
             p {
               margin: 0;
-              padding: 3px;
               color: $secondaryColorYellow;
               font-size: 0.9rem;
+              border: 1px solid $secondaryColorYellow;
+              border-radius: 12px;
+              padding: 0 4px 0px 4px;
+              box-sizing: border-box;
             }
           }
         }

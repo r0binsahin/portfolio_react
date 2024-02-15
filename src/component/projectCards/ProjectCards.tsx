@@ -43,7 +43,7 @@ export const ProjectCards = () => {
               </div>
               <div className="flipCard__back">
                 <div className="flipCard__back__wrapper">
-                  <h1>{project.projectName}</h1>
+                  <h2>{project.projectName}</h2>
                   <p className="projectDesc">{project.projectDesc}</p>
                   <div className="btnWrapper">
                     {project.isDeployed ? (
