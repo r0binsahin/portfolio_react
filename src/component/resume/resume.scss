@@ -30,6 +30,11 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
 
+    transition: ease-in-out 0.25s;
+    &:hover {
+      transform: scale(1.1);
+    }
+
     @include desktop {
       width: 30%;
       flex-direction: column;
@@ -92,16 +97,21 @@
 
         border: none;
         background-color: transparent;
-      }
 
-      a {
-        width: 100%;
-        height: 100%;
-        text-decoration: none;
-        font-size: 1rem;
+        a {
+          width: 100%;
+          height: 100%;
+          text-decoration: none;
+          font-size: 1rem;
 
-        img {
-          width: 45px;
+          img {
+            width: 35px;
+            transition: ease-in-out 0.25s;
+
+            &:hover {
+              transform: scale(1.5);
+            }
+          }
         }
       }
     }
@@ -114,10 +124,15 @@
       display: flex;
       justify-content: space-around;
 
-      padding: 5px 0 5px 0;
+      padding: 10px 0 10px 0;
 
       a {
         cursor: pointer;
+
+        transition: ease-in-out 0.25s;
+        &:hover {
+          transform: scale(1.2);
+        }
       }
     }
   }
