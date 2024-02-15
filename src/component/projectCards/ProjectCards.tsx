@@ -7,11 +7,14 @@ import "./projectCards.scss";
 export const ProjectCards = () => {
   const { projects } = useContext(DataContext);
   const [flippedCards, setFlippedCards] = useState<number[]>([]);
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
 
   const handleClick = (index: number) => {
     setFlippedCards((prev) => {
       const newFlippedCards = [...prev];
       const cardIndex = newFlippedCards.indexOf(index);
+
+      setHoveredCard(null);
 
       if (cardIndex === -1) {
         newFlippedCards.push(index);
@@ -29,6 +32,11 @@ export const ProjectCards = () => {
       <div className="cardContainer">
         {projects.map((project: IProject, index: number) => (
           <div className="flipCard" onClick={() => handleClick(index)}>
+            {hoveredCard === index && (
+              <div className="hoverInfo">
+                <p>CLICK TO SEE MORE</p>
+              </div>
+            )}
             <div
               className={`flipCard__inner ${
                 flippedCards.includes(index) ? "rotate" : ""
@@ -36,6 +44,8 @@ export const ProjectCards = () => {
             >
               <div className="flipCard__front">
                 <img
+                  onMouseEnter={() => setHoveredCard(index)}
+                  onMouseLeave={() => setHoveredCard(null)}
                   className="flipCard__front__img"
                   src={project.projectImg}
                   alt="project image"
