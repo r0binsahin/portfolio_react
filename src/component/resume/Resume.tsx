@@ -8,60 +8,56 @@ import CV_Robin_Sahin_eng from "../../assets/cv/CV_Robin_Sahin_eng.pdf";
 import swedish_flag from "../../assets/icons/swedish_flag.png";
 import british_flag from "../../assets/icons/british_flag.png";
 
-import { useState } from "react";
-import { ResumeCard } from "../../assets/icons/ResumeCard";
+import { FiGithub } from "react-icons/fi";
+import { IoMailOpenOutline } from "react-icons/io5";
+import { SlSocialLinkedin } from "react-icons/sl";
 
 export const Resume = () => {
-  const [flippedCards, setFlippedCards] = useState<number[]>([]);
-
-  const handleClick = (index: number) => {
-    setFlippedCards((prev) => {
-      const newFlippedCards = [...prev];
-      const cardIndex = newFlippedCards.indexOf(index);
-
-      if (cardIndex === -1) {
-        newFlippedCards.push(index);
-      } else {
-        newFlippedCards.splice(cardIndex, 1);
-      }
-
-      return newFlippedCards;
-    });
-  };
   return (
     <>
       <div id="resume">
         <h1>Resume</h1>
         <div className="cardContainer">
-          <div className="flipCard" onClick={() => handleClick(1)}>
-            <div
-              className={`flipCard__inner ${
-                flippedCards.includes(1) ? "rotate" : ""
-              }`}
-            >
-              <div className="flipCard__front">
-                <ResumeCard />
-              </div>
-              <div className="flipCard__back">
-                <div className="flipCard__back__wrapper">
-                  <h1>CV</h1>
+          <div className="imgContainer">
+            <img
+              src="https://i.postimg.cc/3J4kL7Zb/robinsahinabout.png"
+              alt="a summer picture of Robin in a straw hat"
+            />
+          </div>
+          <h3>Robin Sahin</h3>
 
-                  <div className="btnWrapper">
-                    <button>
-                      <a href={CV_Robin_Sahin_sv} target="_blank">
-                        <img src={swedish_flag} alt="swedish flag" />
-                      </a>
-                    </button>
-
-                    <button>
-                      <a href={CV_Robin_Sahin_eng} target="_blank">
-                        <img src={british_flag} alt="british flag" />
-                      </a>
-                    </button>
-                  </div>
-                </div>
-              </div>
+          <div className="cv_wrapper">
+            <div className="cvTitle">
+              <p>Curriculum Vitae</p>
             </div>
+
+            <div className="cv">
+              <button>
+                <a href={CV_Robin_Sahin_sv} target="_blank">
+                  <img src={swedish_flag} alt="swedish flag" />
+                </a>
+              </button>
+              <button>
+                <a href={CV_Robin_Sahin_eng} target="_blank">
+                  <img src={british_flag} alt="british flag" />
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <div className="links">
+            <a href="mailto:robin.sahin88@gmail.com" target="_blank">
+              <IoMailOpenOutline color="#fff" size={30} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/robin-sahin-15404a24b/"
+              target="_blank"
+            >
+              <SlSocialLinkedin color="#fff" size={30} />
+            </a>
+            <a href="https://github.com/r0binsahin" target="_blank">
+              <FiGithub color="#fff" size={30} />
+            </a>
           </div>
         </div>
       </div>
