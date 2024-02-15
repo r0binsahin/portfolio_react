@@ -56,31 +56,36 @@
       &:hover {
         transform: scale(1.1);
       }
-
       .hoverInfo {
-        width: 150px;
-        height: 150px;
-        position: absolute;
-        z-index: 2;
+        display: none;
+      }
 
-        display: flex;
-        flex-direction: column;
+      @include desktop {
+        .hoverInfo {
+          width: 150px;
+          height: 150px;
+          position: absolute;
+          z-index: 2;
 
-        justify-content: center;
-        align-items: center;
+          display: flex;
+          flex-direction: column;
 
-        border: 1px solid $white;
-        border-radius: 12px;
+          justify-content: center;
+          align-items: center;
 
-        pointer-events: none;
+          border: 1px solid $white;
+          border-radius: 12px;
 
-        background-color: rgba(0, 0, 0, 0.5);
+          pointer-events: none;
 
-        p {
-          width: 100%;
-          font-size: 0.9rem;
-          text-align: center;
-          color: $white;
+          background-color: rgba(0, 0, 0, 0.5);
+
+          p {
+            width: 100%;
+            font-size: 0.9rem;
+            text-align: center;
+            color: $white;
+          }
         }
       }
 
