@@ -30,11 +30,6 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
 
-    transition: ease-in-out 0.25s;
-    &:hover {
-      transform: scale(1.1);
-    }
-
     @include desktop {
       width: 30%;
       flex-direction: column;
