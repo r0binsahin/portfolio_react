@@ -23,6 +23,7 @@
 
     img {
       width: 40%;
+      border-radius: 50%;
 
       @include desktop {
         width: 100%;
