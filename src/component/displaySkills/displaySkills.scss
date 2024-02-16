@@ -24,7 +24,7 @@
   }
 
   .skills {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -34,6 +34,10 @@
 
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
+
+    @include desktop {
+      width: 100%;
+    }
   }
 
   .skill {
