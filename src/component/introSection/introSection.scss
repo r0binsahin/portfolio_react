@@ -12,10 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    overflow: hidden;
-
-    border: 1px solid $secondaryColorYellow;
 
     @include desktop {
       width: 300px;
