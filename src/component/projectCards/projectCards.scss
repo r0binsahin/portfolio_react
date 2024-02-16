@@ -116,19 +116,22 @@
           gap: 20px;
 
           .projectDesc {
-            text-align: center;
+            text-align: left;
             font-size: 0.9rem;
             border: 1px solid $secondaryColorYellow;
             border-radius: 12px;
+
+            padding: 10px;
           }
 
           .btnWrapper {
             width: 100%;
             display: flex;
             justify-content: space-around;
+            gap: 10px;
 
             button {
-              width: 70px;
+              width: 100px;
               height: 30px;
 
               border: none;
@@ -170,8 +173,8 @@
               margin: 0;
               color: $secondaryColorYellow;
               font-size: 0.9rem;
-              border: 1px solid $secondaryColorYellow;
-              border-radius: 12px;
+              border: 1px solid $white;
+              /*        border-radius: 12px; */
               padding: 0 4px 0px 4px;
               box-sizing: border-box;
             }
