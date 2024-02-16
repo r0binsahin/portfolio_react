@@ -10,6 +10,7 @@ export const Navbar = () => {
     { section: "start", link: "#start" },
     { section: "resume", link: "#resume" },
     { section: "projects", link: "#projects" },
+    { section: "contact", link: "#contact" },
   ];
 
   return (

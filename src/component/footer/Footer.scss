@@ -3,7 +3,8 @@
 
 .footer {
   width: 100%;
-  margin-top: 100px;
+
+  padding: 100px 0 100px 0;
 
   background-color: $secondaryColorYellow;
 
@@ -12,7 +13,6 @@
   letter-spacing: 0.4px;
 
   &__phoneBox {
-    padding-top: 30px;
     p {
       text-align: center;
     }
@@ -22,8 +22,7 @@
     display: flex;
     justify-content: center;
 
-    gap: 20px;
-    padding-bottom: 30px;
+    gap: 30px;
 
     a {
       text-align: center;

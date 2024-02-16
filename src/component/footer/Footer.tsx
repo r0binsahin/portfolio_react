@@ -7,10 +7,10 @@ import { SlSocialLinkedin } from "react-icons/sl";
 export const Footer = () => {
   return (
     <>
-      <footer className="footer">
+      <footer className="footer" id="contact">
         <div className="footer__phoneBox">
           <p className="footer__phoneBox--name">Robin Sahin</p>
-          <p className="footer__phoneBox--phone">+46722983593</p>
+          <p className="footer__phoneBox--phone">+46 72 298 35 93</p>
         </div>
 
         <div className="footer__linkBox">
