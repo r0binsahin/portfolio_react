@@ -36,11 +36,13 @@ export const Resume = () => {
                 <a href={CV_Robin_Sahin_sv} target="_blank">
                   <img src={swedish_flag} alt="swedish flag" />
                 </a>
+                <p>Swedish</p>
               </button>
               <button>
                 <a href={CV_Robin_Sahin_eng} target="_blank">
                   <img src={british_flag} alt="british flag" />
                 </a>
+                <p>English</p>
               </button>
             </div>
           </div>

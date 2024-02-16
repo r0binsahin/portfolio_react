@@ -78,7 +78,6 @@
       justify-content: center;
       align-items: center;
 
-      border: 1px solid $white;
       border-radius: 12px;
 
       color: $white;
@@ -88,7 +87,7 @@
       font-size: 1.2rem;
 
       button {
-        width: 60px;
+        width: 100px;
 
         border: none;
         background-color: transparent;
@@ -100,13 +99,18 @@
           font-size: 1rem;
 
           img {
-            width: 35px;
+            width: 75px;
             transition: ease-in-out 0.25s;
+            border: 1px solid $white;
+            border-radius: 12px;
 
             &:hover {
               transform: scale(1.5);
             }
           }
+        }
+        p {
+          color: $white;
         }
       }
     }
