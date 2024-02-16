@@ -171,7 +171,7 @@
       {
         "projectImg": "https://i.postimg.cc/ZRtgtcCT/bookshop-cover.png",
         "projectName": "Selmas Books",
-        "projectDesc": "A bookshop where you can buy some of Selma Lagerlöf's books. This was a teamwork project made by me and my classmates Lisa and Micke. We followed Scrum and Jira were followed.",
+        "projectDesc": "A bookshop where you can buy some of Selma Lagerlöf's books. This was a teamwork project made by me and my classmates Lisa and Micke. We followed agile project methods using Scrum and Jira were followed.",
         "isDeployed": true,
         "projectLink": "https://selmasbookshop.netlify.app/",
         "projectGHLink": "https://github.com/r0binsahin/Bookshop.git",
