@@ -9,6 +9,8 @@
 
   h1 {
     color: white;
+    margin: 0;
+    padding-bottom: 50px;
   }
 
   @include desktop {

@@ -19,6 +19,8 @@
   }
   h1 {
     color: $white;
+    margin: 0;
+    padding-bottom: 50px;
   }
 
   .skills {
@@ -30,7 +32,6 @@
     align-items: start;
     gap: 40px;
 
-    margin: 20px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
   }
