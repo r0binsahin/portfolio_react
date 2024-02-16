@@ -109,7 +109,7 @@
       {
         "projectImg": "https://i.postimg.cc/43LP5RJB/sushihaket.png",
         "projectName": "Sushihaket",
-        "projectDesc": "A fullstack restaurant site with booking and admin page. Group work in the course in ReactJS, during our education as Frontend Developers at the Media Institute.",
+        "projectDesc": "A fullstack restaurant site with booking and admin page. Group work in the course in ReactJS, during our education as Frontend Developers at Medieinstitutet.",
         "isDeployed": true,
         "projectLink": "https://sushihaket.netlify.app/",
         "projectGHLink": "https://github.com/r0binsahin/sushi_restaurant.git",
@@ -135,7 +135,7 @@
       {
         "projectImg": "https://i.postimg.cc/G3kVNcyc/react-native-todolist.png",
         "projectName": "React Native Todo List",
-        "projectDesc": "A mobile application created using React Native. Type next errand to do and check it when completed. Check, edit or remove  errands.",
+        "projectDesc": "A mobile application created using React Native. Type next errand to do and check it off when completed. Check, edit or remove  errands.",
         "isDeployed": false,
         "projectLink": "",
         "projectGHLink": "https://github.com/r0binsahin/Todo_React_Native",
@@ -145,7 +145,7 @@
       {
         "projectImg": "https://i.postimg.cc/WtcbQ1d1/todo-vjue.png",
         "projectName": "VueJS Todo List ",
-        "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
+        "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it off when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
         "isDeployed": true,
         "projectLink": "https://todolist-with-vue.netlify.app/",
         "projectGHLink": "https://github.com/r0binsahin/Todo_list_Vue.js.git",
@@ -196,7 +196,7 @@
       {
         "projectImg": "https://i.postimg.cc/7hqWbZ3d/todo-cover.png",
         "projectName": "Todo-list",
-        "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
+        "projectDesc": "This is an application where you can create a todo-list. Type next errand to do and check it off when completed. Clear checked errand or the whole list when you are done. My first school project with Javascript.",
         "isDeployed": true,
         "projectLink": "https://robinstodolist.netlify.app/",
         "projectGHLink": "https://github.com/r0binsahin/TODO-List",
