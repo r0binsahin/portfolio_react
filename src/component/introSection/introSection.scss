@@ -12,6 +12,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+
+    border: 1px solid $secondaryColorYellow;
 
     @include desktop {
       width: 300px;
@@ -19,7 +23,6 @@
 
     img {
       width: 40%;
-      border-radius: 50%;
 
       @include desktop {
         width: 100%;
@@ -29,6 +32,13 @@
 
   h1 {
     color: $white;
+  }
+
+  .developer {
+    margin-left: 5px;
+    color: $black;
+    background-color: $secondaryColorYellow;
+    padding: 0 10px 0 10px;
   }
 
   h3 {

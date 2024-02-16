@@ -11,9 +11,11 @@ export const IntroSection = () => {
           alt="Robin Sahin portrait"
         />
       </div>
+      <h1>Hi, I'm Robin Sahin</h1>
+      <div style={{ display: "flex" }}>
+        <h3>a Stockholm-based </h3> <h3 className="developer">developer</h3>
+      </div>
 
-      <h1>Hi, I'm Robin</h1>
-      <h3>a Stockholm-based developer</h3>
       <p>
         Thrilled to share the excitement of my journey as a dedicated and
         curious junior front-end developer. Currently, I am immersed in an
