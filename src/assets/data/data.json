@@ -21,6 +21,11 @@
       },
 
       {
+        "skillsImg": "https://img.icons8.com/windows/512/nodejs.png",
+        "skillsName": "Node.js"
+      },
+
+      {
         "skillsImg": "https://img.icons8.com/windows/512/vuetify.png",
         "skillsName": "Vuejs"
       },
@@ -68,10 +73,6 @@
       {
         "skillsImg": "https://img.icons8.com/ios-glyphs/512/github.png",
         "skillsName": "GitHub"
-      },
-      {
-        "skillsImg": "https://img.icons8.com/windows/512/nodejs.png",
-        "skillsName": "Node.js"
       },
 
       {
