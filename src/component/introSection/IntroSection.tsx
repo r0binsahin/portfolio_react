@@ -18,8 +18,8 @@ export const IntroSection = () => {
 
       <p>
         Thrilled to share the excitement of my journey as a dedicated and
-        curious junior front-end developer. Currently, I am immersed in an
-        enriching internship at{" "}
+        curious frontend developer. Currently, I am immersed in an enriching
+        internship at{" "}
         <a href="https://daresay.co/" target="_blank">
           Daresay by Knightec
         </a>
