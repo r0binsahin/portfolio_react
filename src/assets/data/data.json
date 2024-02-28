@@ -94,6 +94,10 @@
       {
         "skillsImg": "https://img.icons8.com/sf-black-filled/512/sql.png",
         "skillsName": "SQL"
+      },
+      {
+        "skillsImg": "https://cdn.iconscout.com/icon/free/png-512/free-figma-3766578-3146090.png?f=webp&w=256",
+        "skillsName": "Figma"
       }
     ],
     "projects": [
