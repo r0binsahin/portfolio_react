@@ -30,6 +30,7 @@ export const ProjectCards = () => {
         {projects.map((project: IProject, index: number) => (
           <div className="flipCard" onClick={() => handleClick(index)}>
             <div
+              key={index}
               className={`flipCard__inner ${
                 flippedCards.includes(index) ? "rotate" : ""
               }`}

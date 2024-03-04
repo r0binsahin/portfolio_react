@@ -12,8 +12,8 @@ export const DisplayOtherProjects = () => {
     <div className="otherProjectsContainer">
       <h1>Other Projects</h1>
       <div className="projects">
-        {otherProjects.map((project) => (
-          <a href={project.otherProjectGHLink} target="_blank">
+        {otherProjects.map((project, index) => (
+          <a href={project.otherProjectGHLink} target="_blank" key={index}>
             <div className="project">
               <p className="projectName">{project.otherProjectName}</p>
 

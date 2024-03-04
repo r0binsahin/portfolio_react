@@ -10,8 +10,8 @@ export const DisplaySkills = () => {
     <div className="skillsContainer">
       <h1>Skills</h1>
       <div className="skills">
-        {skills.map((skill) => (
-          <div className="skill">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill">
             <div className="icon">
               <img src={skill.skillsImg} alt={skill.skillsName} />
             </div>
