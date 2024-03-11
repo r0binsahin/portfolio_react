@@ -35,8 +35,16 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
 
+    background-color: $white;
+    border-radius: 12px;
+    border: 5px solid $secondaryColorYellow;
+
+    padding: 10px 0 10px 0;
+
     @include desktop {
       width: 100%;
+
+      padding: 40px;
     }
   }
 
